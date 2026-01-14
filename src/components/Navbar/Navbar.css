@@ -3,18 +3,13 @@
   border-bottom: 1px solid #e7dfd4;
 }
 
-/* IMPORTANT:
-   Facem layout-ul ca în poză:
-   - brand stânga
-   - search perfect centrat
-   - actions dreapta
-*/
+
 .navbar__grid {
   width: 100%;
   padding: 12px 24px;
 
   display: grid;
-  grid-template-columns: 1fr auto 1fr; /* cheia: centru = auto, stânga/dreapta egale */
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
 }
 
@@ -43,7 +38,7 @@
   color: #1f2937;
 }
 
-/* CENTER (search stays centered in the entire navbar) */
+
 .navbar__center {
   justify-self: center;
 }
